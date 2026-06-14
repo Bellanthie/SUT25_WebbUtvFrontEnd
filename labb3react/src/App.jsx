@@ -1,4 +1,4 @@
-import ToDoList from "./ToDoList.jsx";
+import TodoList from "./ToDoList.jsx";
 import "./App.css";
 
 //root component renders into the root-div
@@ -6,6 +6,6 @@ import "./App.css";
 //and the empty and ready tasks.
 function App() {
   const startTasks = [];
-  return <ToDoList title="To-Do-List" initialTasks={startTasks} />;
+  return <TodoList title="To-Do-List" initialTasks={startTasks} />;
 }
 export default App;
